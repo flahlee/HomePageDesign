@@ -230,10 +230,8 @@ li span a{
 .white-background {
     background: url(img/Screen_Img.png) no-repeat;
     background-size: cover;
-    /* width: 785px;
-    height: 480px; */
-    width: 49.063em;
-    height: 30.000em;
+    width: 785px;
+    height: 480px;
     position: absolute;
     top: -130%;
     right: 0;
@@ -246,12 +244,12 @@ li span a{
     .white-background {
         width: 500px;
         height: 400px;
-        top: -70%;
+        top: -50%;
     }
 
     .adobe-series img{
         margin-right: 10px;
-        width: 40px;
+        width: 30px;
     }
 
 }
@@ -275,6 +273,12 @@ li span a{
     height: 90vh;
     background: url('img/body1-bg.png') no-repeat;
     background-size: cover;
+}
+
+@media(max-width: 1400px) {
+    .body1 {
+        margin-bottom: 15%;
+    }
 }
 
 .body1-head {
@@ -538,12 +542,10 @@ text-decoration: none;
 @media(max-width: 1400px){
     .footer-info {
         margin-right: 50px;
-        border: 1px solid yellow;
         min-width: 190px;
     }
 
     .footer-info2{
-        border: 1px solid white;
         padding-left: 0;
     }
 
@@ -559,24 +561,10 @@ text-decoration: none;
         text-align: center;
     }
 
-    .footer-content-bottom-left {
-        border: 1px solid blue;
-        width: 60%;
-    }
-
-
-    .footer-content-bottom-right {
-        /* border: 1px solid red; */
-        width: 40%;
-    }
-
-    .footer-content-bottom-right  p{
-        border: 1px solid yellow;
-    }
-
-    .footer-content-bottom-left ul li{
-        border: 1px solid white;
-        font-size: .6em;
-        width: 140px;
+    .footer-content-bottom {
+        margin-top: 60px;
+        height: 90px;
+        width: 100%;
+        display: flex;
     }
 }
